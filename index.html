@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebRTC Chat Room</title>
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <!-- Landing Page Container -->
+    <div id="landing_page_container">
+        <div id="enter_room_wrapper">
+            <input type="text" id="input_room_channel_name" placeholder="Enter channel name" />
+            <button id="create_room_button">Create</button>
+            <button id="join_button">Join</button>
+        </div>
+    </div>
+    <!-- Room Interface -->
+    <div id="room_interface">
+        <div class="room_header">
+            <button id="exit_button">Exit Room</button>
+            <button id="destroyRoomButton">destroy Room</button>
+        </div>
+        <div id="message_input">
+            <input type="text" id="message_input_field" placeholder="Type a message..." />
+            <button id="send_message_button">Send</button>
+        </div> 
+    </div>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
